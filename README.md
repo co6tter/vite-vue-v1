@@ -7,8 +7,11 @@
 - TypeScript
 - TailwindCSS
 - ESLint
+- Prettier
 - Husky
 - lint-staged
+- commitlint
+- Vitest
 
 ## Note
 
