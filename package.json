@@ -39,5 +39,6 @@
       "eslint --cache --fix",
       "prettier --write --ignore-unknown"
     ]
-  }
+  },
+  "packageManager": "pnpm@9.15.5"
 }
