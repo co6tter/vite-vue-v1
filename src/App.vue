@@ -1,22 +1,15 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import BaseCard from "./components/BaseCard.vue";
 </script>
 
 <template>
-  <HelloWorld msg="Hello World" />
+  <div
+    class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+  >
+    <template v-for="n in 10" :key="n">
+      <BaseCard :msg="n" />
+    </template>
+  </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>
