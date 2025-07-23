@@ -4,6 +4,10 @@
 
 - Vite
 - Vue 3
+- Pinia
+- Vue Router
+- VeeValidate
+- yup
 - TypeScript
 - TailwindCSS
 - ESLint
@@ -12,6 +16,7 @@
 - lint-staged
 - commitlint
 - Vitest
+- Vue Testing Library
 
 ## Note
 
