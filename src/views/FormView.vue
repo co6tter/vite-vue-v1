@@ -30,7 +30,6 @@ const dynamicForm = reactive(new DynamicForm([], 1, 3));
 const formStore = useFormStore();
 
 const schema = computed(() => {
-  console.log("schema");
   return createValidationSchema(dynamicForm.fields);
 });
 
